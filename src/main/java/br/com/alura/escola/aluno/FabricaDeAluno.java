@@ -1,4 +1,4 @@
-package escola;
+package br.com.alura.escola.aluno;
 
 // lembra também o padrão Builder por causa do encadeamento dos métodos
 public class FabricaDeAluno {
