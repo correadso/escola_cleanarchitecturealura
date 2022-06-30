@@ -42,12 +42,14 @@ public class RepositorioDeAlunosComJDBC implements RepositorioDeAlunos {
 	}
 
 	@Override
-	public Aluno buscarPorCPF(CPF cpf) { // desafio: implementar
+	public Aluno buscarPorCPF(CPF cpf) {
+		// implementação exibida na aula
 		return null;
 	}
 
 	@Override
-	public List<Aluno> listarTodosAlunosMatriculados() { // desafio: implementar
+	public List<Aluno> listarTodosAlunosMatriculados() {
+		// implementação exibida na aula
 		return null;
 	}
 
