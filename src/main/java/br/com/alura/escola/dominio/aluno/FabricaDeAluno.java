@@ -22,12 +22,12 @@ public class FabricaDeAluno {
 	/**
 	 * Demonstrando a criação de um Aluno usando a fábrica/builder de Aluno
 	 */
-	public static void main(String[] args) {
-		FabricaDeAluno fabrica = new FabricaDeAluno();
-		Aluno aluno2 = fabrica.comNomeCPFEmail("Diogo", "12345678900", "email@email.com")
-		.comTelefone("12", "123456789")
-		.comTelefone("34", "987654321")
-		.criar();
-	}
+//	public static void main(String[] args) {
+//		FabricaDeAluno fabrica = new FabricaDeAluno();
+//		Aluno aluno2 = fabrica.comNomeCPFEmail("Diogo", "12345678900", "email@email.com")
+//		.comTelefone("12", "123456789")
+//		.comTelefone("34", "987654321")
+//		.criar();
+//	}
 
 }

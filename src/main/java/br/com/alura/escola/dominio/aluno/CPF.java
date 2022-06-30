@@ -6,7 +6,7 @@ public class CPF {
 	
 	// desafio: teste unitário da classe CPF
 	public CPF(String numero) {
-		if (numero == null || !numero.matches("\\d{3}\\.\\d{d}\\.\\d{3}\\-\\d{2}"))
+		if (numero == null || !numero.matches("\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}"))
 			throw new IllegalArgumentException("CPF invalido!");
 		this.numero = numero;
 	}
